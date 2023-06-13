@@ -1,0 +1,222 @@
+
+.body{
+    margin:0px;
+    height: 527px;
+    text-align: center;
+}
+.content-wrap .bg-image{
+    position: absolute;
+    background: #333 url('webpics/pexels-nataliya-vaitkevich-5554697.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 527px;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.nav p{
+    padding: 10px;
+}
+
+.box1 h2{
+    color:white;
+}
+
+.list{
+    margin-top: 1em;
+}
+.list li {
+    list-style: none;
+    padding: 3px;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.list li{
+    background-color:rgba(47, 79, 79, 0.5) ;
+    color: white;
+    border: none;
+}
+.list li:hover{
+    color: white;
+    background-color: rgba(85, 25, 25, 0.568);
+}
+
+.get h3{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 110, 0.315);
+    padding: 5px;
+    margin:0px;
+}
+
+#SVG{
+    display:flex;
+    justify-content: center;
+    margin:0px;
+    padding:10px;
+    background-color: rgba(51, 51, 51, 0);
+}
+
+#SVG li{
+    list-style: none;
+    font-size: 25px;
+}
+.fa{
+    padding: 10px;
+    border-radius: 50px;
+    margin: 5px;
+    box-shadow: 0px 1px 1px 0px black;
+}
+
+.fa-facebook{
+    color: white;
+    background-color:#3B5998;
+}
+.fa-linkedin{
+    color: white;
+    background: #007bb5;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-whatsapp{
+   color: white;
+   background-color:#4FCE5D;
+}
+
+.fa:hover{
+    opacity: 0.7;
+    
+}
+
+#SVG a:hover{
+    margin-top: 3px;
+    transition: 0.15ms;
+}
+.get{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+.get li{
+    display:inline-block;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.get .fa{
+    padding: 5px;
+
+}
+.fa-envelope{
+    background-color: #4285f4;
+}
+.fa-phone{
+    background-color: #bcbcbc;
+}
+.more  h3{
+    color: rgb(17, 0, 58);
+    margin:0px;
+    padding: 5px;
+}
+.more{
+    text-align: center;
+    background-color: #007cb598;
+}
+.more p{
+    color:white;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    font-weight: 900;
+
+}
+
+.nav{
+    color: white;
+    background-color: rgb(51, 51, 51);
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.nav p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.nav h3{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:650px){
+
+    #SVG a:hover{
+        margin-top: 3px;
+        transition: 0.15ms;
+    }
+    .list li{
+        background-color:rgba(47, 79, 79, 0.842);
+        padding-left: 15px;
+        padding-right:15px;
+    }
+    .list{
+        text-align: center;
+    }
+   
+    .content-wrap{
+        text-align:center;
+    }
+
+    .content-wrap .bg-image{
+        height: 700px ;
+    }
+    
+  .list{
+     display: inline-block;
+  }
+  .list-wrapper{
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 6em;
+    text-align: end;
+    margin-right: 5px;
+  }
+  .box1 h2{
+    display: flex;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px yellow;
+  }
+  .box1 {
+    display: inline-block;
+  }
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+}
+@media(min-width:600px){
+    #SVG{
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+}

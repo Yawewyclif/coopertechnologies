@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1079462440733",
+    "project_id": "afro-chat-c82c4",
+    "storage_bucket": "afro-chat-c82c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079462440733:android:47e399288a7137f020bbf4",
+        "android_client_info": {
+          "package_name": "Afrochat.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079462440733-4ehe3l1o6hguno7u15vn7dtma59v30m1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTHivLpzhNSWsW0DtMfFsxPOckjbBG-Ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079462440733-4ehe3l1o6hguno7u15vn7dtma59v30m1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1079462440733-ivoj920pg0qfih43m5e64dte0178l6an.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "afrochat.com",
+                "app_store_id": "1787444413"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
